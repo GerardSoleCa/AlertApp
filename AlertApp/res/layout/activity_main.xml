@@ -1,0 +1,91 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <EditText
+            android:id="@+id/userEditText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/userField" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/pinEditText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/passField"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="saveButton"
+            android:text="@string/saveButton" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/accessibilityButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="openSettings"
+                android:text="Activate Whatsapp notifications" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="web"
+            android:gravity="center_horizontal"
+            android:linksClickable="true"
+            android:paddingTop="20dp"
+            android:text="Please, configure the app and the desktop application with your user and pin."
+            android:textSize="16dp" >
+        </TextView>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="web"
+            android:gravity="center_horizontal"
+            android:linksClickable="true"
+            android:paddingTop="20dp"
+            android:text="Download at:"
+            android:textSize="16dp" >
+        </TextView>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="web"
+            android:gravity="center_horizontal"
+            android:linksClickable="true"
+            android:text="http://alertapp.grayditch.com"
+            android:textSize="16dp" >
+        </TextView>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:onClick="sendNotification"
+            android:text="Test a Notification" />
+    </LinearLayout>
+
+</ScrollView>

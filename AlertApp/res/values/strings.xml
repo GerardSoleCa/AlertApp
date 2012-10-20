@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">AlertApp Alpha</string>
+    <string name="title_activity_main">AlertApp Alpha</string>
+    <string name="userField">User</string>
+    <string name="passField">Pass</string>
+    <string name="saveButton">Save</string>
+    <string name="savedToast">The user has been saved</string>
+    <string name="AccessibilityDescription">Activating this Accessibility let you receive whatsapp notifications (Only the notification, not the text) in your computer.</string>
+
+</resources>
