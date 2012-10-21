@@ -1,0 +1,9 @@
+AlertApp let's you receive notifications in your computer from your android phone. In order to use this service you should first go to google's play market and download the AlertApp for Android. On the right of this text you will find a link to the market or you can use the QR to download to the phone. Once the application has been installed, configure it in your phone with a user and a password. Then download one of the following Desktop applications according to your system. Then in the system try (Normally on the Clock and little icones zone) open configuration by clicking the AlertApp icon with a right-click. Then configure with the same user and password as you did it in your mobile. On Android application you can test the connection, if the Computer shows a message that's all! Now let AlertApp notify you!
+
+Download the desktop application: http://alertapp.grayditch.com/
+
+Windows: http://micro.grayditch.com/builds/Windows/AlertApp.jar
+
+MacOSX: http://micro.grayditch.com/builds/OSX/AlertApp.dmg
+
+Linux: http://micro.grayditch.com/builds/Linux/AlertApp.sh
